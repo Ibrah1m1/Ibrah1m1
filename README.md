@@ -76,14 +76,19 @@ I'm a passionate **Software Engineering student** with experience in **applicati
 
 ---
 
-## 📫 Connect With Me
 
-<p align="center">
+### 📪 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourname)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ibrahim.abualg@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ibrah1m1)
-
+<p align="left">
+  <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white&v=1" alt="LinkedIn" />
+  </a>
+  <a href="mailto:YOUR_EMAIL@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white&v=1" alt="Email" />
+  </a>
+  <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white&v=1" alt="GitHub" />
+  </a>
 </p>
 
 ---

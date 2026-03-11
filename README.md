@@ -4,9 +4,9 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/-121212?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_USERNAME)
-[![Gmail](https://img.shields.io/badge/-121212?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@gmail.com)
-[![Location](https://img.shields.io/badge/-121212?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_USERNAME)
+[![Gmail](https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@gmail.com)
+[![Location](https://img.shields.io/badge/Jeddah-000000?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 </div>
 

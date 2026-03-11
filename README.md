@@ -3,17 +3,10 @@
 ### 🎓 Software Engineering Student at University of Jeddah | Class of 2027
 
 <div align="center">
-<p align="left">
-  <a href="https://linkedin.com/in/YOUR_USERNAME">
-    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
-  </a>
-  <a href="mailto:YOUR_EMAIL@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" />
-  </a>
-  <a href="#">
-    <img src="https://skillicons.dev/icons?i=earth" alt="Jeddah, Saudi Arabia" />
-  </a>
-</p>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_USERNAME)
+[![Gmail](https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@gmail.com)
+[![Location](https://img.shields.io/badge/Jeddah-000000?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 </div>
 

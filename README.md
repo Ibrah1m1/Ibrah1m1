@@ -1,16 +1,11 @@
 # 👋 Hi, I'm Ibrahim Eissa Abu Alghayth!
 
 ### 🎓 Software Engineering Student at University of Jeddah | Class of 2027
-
 <div align="center">
 
-<div align="center">
-
-🔗 [LinkedIn](https://linkedin.com/in/yourname)
-📧 [ibrahim.abualg@gmail.com](mailto:ibrahim.abualg@gmail.com)
-📍 Jeddah, Saudi Arabia
-
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&color=0077B5)](https://linkedin.com/in/yourname)
+[![Gmail](https://img.shields.io/badge/Gmail-D44638?style=for-the-badge&logo=gmail&logoColor=white&color=D44638)](mailto:ibrahim.abualg@gmail.com)
+[![Location](https://img.shields.io/badge/Jeddah,%20Saudi%20Arabia-2D2D2D?style=for-the-badge&logo=google-maps&logoColor=white&color=2D2D2D)]
 
 </div>
 

@@ -3,10 +3,19 @@
 ### 🎓 Software Engineering Student at University of Jeddah | Class of 2027
 
 <div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-121212?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_USERNAME)
-[![Gmail](https://img.shields.io/badge/Gmail-121212?style=flat-square&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@gmail.com)
-[![Location](https://img.shields.io/badge/Jeddah,%20Saudi%20Arabia-121212?style=flat-square&logo=googlemaps&logoColor=white)](#)
+<p align="left">
+  <a href="https://linkedin.com/in/YOUR_USERNAME" style="text-decoration: none; color: inherit;">
+    <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/LinkedIn.svg" width="20" height="20" style="vertical-align: middle; margin-right: 5px;"/> <b>LinkedIn</b>
+  </a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="mailto:YOUR_EMAIL@gmail.com" style="text-decoration: none; color: inherit;">
+    <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Gmail-Light.svg" width="20" height="20" style="vertical-align: middle; margin-right: 5px;"/> <b>Gmail</b>
+  </a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <span style="text-decoration: none; color: inherit;">
+    📍 <b>Jeddah, Saudi Arabia</b>
+  </span>
+</p>
 
 </div>
 

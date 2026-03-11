@@ -9,14 +9,6 @@
 
 </div>
 
-
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="200" fill="#000000"/>
-  <circle cx="100" cy="100" r="85" fill="none" stroke="#FFFFFF" stroke-width="2"/>
-  <path d="M 75 55 L 85 135 M 115 45 L 125 145" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
-  <path d="M 50 140 Q 110 80 160 90" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
-</svg>
-
 ---
 
 ## 📌 About Me

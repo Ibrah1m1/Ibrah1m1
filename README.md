@@ -5,7 +5,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white&v=1)](https://linkedin.com/in/YOUR_USERNAME)
 [![Gmail](https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=white&v=1)](mailto:ibrahim.abualg@gmail.com)
-[![Location](https://img.shields.io/badge/Jeddah-000000?style=for-the-badge&logo=googlemaps&logoColor=white&v=1)](#)
+[![Location]([https://img.shields.io/badge/Jeddah-000000?style=for-the-badge&logo=googlemaps&logoColor=white&v=1](https://share.google/05zATE2uGAxX83UXx))](#)
 
 </div>
 

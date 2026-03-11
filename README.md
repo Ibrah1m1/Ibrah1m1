@@ -4,9 +4,13 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourname)
-[![Gmail](https://img.shields.io/badge/-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ibrahim.abualg@gmail.com)
-[![Location](https://img.shields.io/badge/-1F1F1F?style=for-the-badge&logo=google-maps&logoColor=white)]
+<div align="center">
+
+🔗 [LinkedIn](https://linkedin.com/in/yourname)
+📧 [ibrahim.abualg@gmail.com](mailto:ibrahim.abualg@gmail.com)
+📍 Jeddah, Saudi Arabia
+
+</div>
 
 </div>
 

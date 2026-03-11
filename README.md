@@ -4,17 +4,15 @@
 
 <div align="center">
 <p align="left">
-  <a href="https://linkedin.com/in/YOUR_USERNAME" style="text-decoration: none; color: inherit;">
-    <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/LinkedIn.svg" width="20" height="20" style="vertical-align: middle; margin-right: 5px;"/> <b>LinkedIn</b>
+  <a href="https://linkedin.com/in/YOUR_USERNAME">
+    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
   </a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="mailto:YOUR_EMAIL@gmail.com" style="text-decoration: none; color: inherit;">
-    <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Gmail-Light.svg" width="20" height="20" style="vertical-align: middle; margin-right: 5px;"/> <b>Gmail</b>
+  <a href="mailto:YOUR_EMAIL@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" />
   </a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <span style="text-decoration: none; color: inherit;">
-    📍 <b>Jeddah, Saudi Arabia</b>
-  </span>
+  <a href="#">
+    <img src="https://skillicons.dev/icons?i=earth" alt="Jeddah, Saudi Arabia" />
+  </a>
 </p>
 
 </div>

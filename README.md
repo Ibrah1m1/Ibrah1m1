@@ -13,9 +13,7 @@
 
 ## 📌 About Me
 
-I'm a passionate **Software Engineering student** with experience in **application development**, **UI/UX design**, and **bioinformatics research**. I love solving real-world problems through technology and continuously learning new skills.
-
-**Currently seeking internship opportunities** to apply my diverse skills and create real impact!
+Software Engineering student at the University of Jeddah with experience in application development, design, and data analysis. Proven ability to build and test software solutions using Python, Java, and modern tools. Active participant in technical workshops and community initiatives. Seeking internship to apply technical skills and contribute to real-world projects.
 
 ---
 
@@ -35,7 +33,7 @@ I'm a passionate **Software Engineering student** with experience in **applicati
 
 | Project | Description | Technologies |
 |---------|-------------|--------------|
-| [🧬 TDP-43 Chromosome X Analysis](TDP-43-Chromosome-X) | Bioinformatics research on ALS biomarkers | Python, R, Linux, Salmon |
+| [🧬 TDP-43 Chromosome X Analysis]([TDP-43-Chromosome-X](https://github.com/Ibrah1m1/TDP-43-Chromosome-X)) | Bioinformatics research on ALS biomarkers | Python, R, Linux, Salmon |
 | [✈️ Cloud Hotel Booking App](Cloud-Hotel-Booking-App) | UI/UX design with 55+ user research participants | Figma, User Research |
 | [🌱 Eco Zone Hackathon](Eco-Zone-Hackathon) | AI-driven environmental awareness system | UI/UX, Rapid Prototyping |
 | [🏥 HealthFy](HealthFy) | Desktop healthcare application | Java Swing |

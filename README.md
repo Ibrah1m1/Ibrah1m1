@@ -3,9 +3,9 @@
 ### 🎓 Software Engineering Student at University of Jeddah | Class of 2027
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&color=0077B5)](https://linkedin.com/in/yourname)
-[![Gmail](https://img.shields.io/badge/Gmail-D44638?style=for-the-badge&logo=gmail&logoColor=white&color=D44638)](mailto:ibrahim.abualg@gmail.com)
-[![Location](https://img.shields.io/badge/Jeddah,%20Saudi%20Arabia-2D2D2D?style=for-the-badge&logo=google-maps&logoColor=white&color=2D2D2D)]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourname)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ibrahim.abualg@gmail.com)
+[![Location](https://img.shields.io/badge/Jeddah-34A853?style=for-the-badge&logo=google-maps&logoColor=white)](https://maps.google.com/?q=Jeddah,Saudi+Arabia)
 
 </div>
 

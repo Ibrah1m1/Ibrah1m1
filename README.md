@@ -33,7 +33,7 @@ Software Engineering student at the University of Jeddah with experience in appl
 
 | Project | Description | Technologies |
 |---------|-------------|--------------|
-| [🧬 TDP-43 Chromosome X Analysis]([TDP-43-Chromosome-X](https://github.com/Ibrah1m1/TDP-43-Chromosome-X)) | Bioinformatics research on ALS biomarkers | Python, R, Linux, Salmon |
+| [🧬 TDP-43 Chromosome X Analysis]([TDP-43-Chromosome-X]) | Bioinformatics research on ALS biomarkers | Python, R, Linux, Salmon |
 | [✈️ Cloud Hotel Booking App](Cloud-Hotel-Booking-App) | UI/UX design with 55+ user research participants | Figma, User Research |
 | [🌱 Eco Zone Hackathon](Eco-Zone-Hackathon) | AI-driven environmental awareness system | UI/UX, Rapid Prototyping |
 | [🏥 HealthFy](HealthFy) | Desktop healthcare application | Java Swing |

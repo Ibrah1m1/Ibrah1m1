@@ -4,9 +4,9 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&borderRadius=10)](https://linkedin.com/in/yourname)
-[![Email](https://img.shields.io/badge/Gmail-D44638?style=for-the-badge&logo=gmail&logoColor=white&borderRadius=10)](mailto:ibrahim.abualg@gmail.com)
-[![Location](https://img.shields.io/badge/Jeddah,%20Saudi%20Arabia-34A853?style=for-the-badge&logo=google-maps&logoColor=white&borderRadius=10)]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_USERNAME)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@gmail.com)
+[![Location](https://img.shields.io/badge/Jeddah,%20Saudi%20Arabia-34A853?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 </div>
 

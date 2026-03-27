@@ -53,17 +53,6 @@ Software Engineering student at the University of Jeddah with experience in appl
 | 🎨 **UI/UX Design Workshop** | Interface Path | Dec 2025 |
 | 🏅 **EmpowerMe Hackathon** | INJAZ/Starbucks Foundation | Jul 2025 |
 
----
-
-## 🏆 Key Achievements
-
-- ✅ **KAUST Bioinformatics Advanced Program** with Distinction
-- ✅ **12+ Certifications** from IBM, Rice, Coursera, KAUST
-- ✅ **55+ Participant** User Research (Cloud Hotel Project)
-- ✅ **95.42% Mapping Rate** in Bioinformatics Pipeline
-- ✅ **23 Differentially Expressed Genes** Identified (ALS Research)
-
----
 
 ## 🤝 Communities
 
@@ -93,8 +82,4 @@ Software Engineering student at the University of Jeddah with experience in appl
 
 ### ⭐ Thanks for visiting my profile! Feel free to explore my projects and connect with me.
 
-<div align="center">
 
-**Made with ❤️ by Ibrahim Eissa**
-
-</div>

@@ -204,21 +204,21 @@
 </div>
 
 <script>
-    // 1. DOM Elements (Grouped at the top for safety and cleaner architecture)
+    // 1. DOM Elements
     const themeBtn = document.getElementById('theme-btn');
-    const nameEn = document.getElementById('name-en');
     const wrap = document.getElementById('logo-wrap');
     const inner = document.getElementById('logo-inner');
     const heroTxt = document.getElementById('hero-text');
     const hSpot = document.getElementById('h-spot');
     const prog = document.getElementById('progress');
 
-    // 2. Global State & Animation Constants
+    // 2. Global State & Constants
     let isDark = localStorage.getItem('theme') === 'dark';
-    let startX, startY, startS;
+    let startX = 0, startY = 0, startS = 0;
     let ticking = false;
     let resizeTimeout;
-
+    let lastWidth = window.innerWidth;
+    
     const NAV_S = 45;
     const TRANS = () => window.innerHeight * 0.78;
     const lerp = (a, b, t) => a + (b - a) * t;
@@ -226,23 +226,22 @@
     // 3. Theme Management
     function updateThemeUI() {
         document.body.classList.toggle('dark', isDark);
-        themeBtn.innerText = isDark ? '️☀ Light' : '☾ Dark';
-
-        // Dynamic colors: (ink, silver)
+        if (themeBtn) themeBtn.innerText = isDark ? '️☀ Light' : '☾ Dark';
+        
         const inkColor = isDark ? '#F3F3F3' : '#1A1612';
         const silverColor = isDark ? '#4A4A4A' : '#A49FA4';
-        inner.innerHTML = logoSVG(inkColor, silverColor);
+        if (inner) inner.innerHTML = logoSVG(inkColor, silverColor);
     }
 
-    // Apply the saved theme immediately
-    updateThemeUI();
+    updateThemeUI(); 
 
-    // Handle theme toggle
-    themeBtn.addEventListener('click', () => {
-        isDark = !isDark;
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
-        updateThemeUI();
-    });
+    if (themeBtn) {
+        themeBtn.addEventListener('click', () => {
+            isDark = !isDark;
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            updateThemeUI();
+        });
+    }
 
     // 4. SVG Generation
     function logoSVG(ink='#1A1612', silver='#A49FA4') {
@@ -258,66 +257,74 @@
 
     // 5. Positioning & Scroll Logic
     function calcInitSize() {
+        if (!hSpot) return;
         const rect = hSpot.getBoundingClientRect();
+        
+        // Safety check to prevent tiny calculations before layout is ready
+        if (rect.height === 0) return;
+
+        // Reverted exactly to your original, working coordinate math
         startS = rect.height * 2.5;
         startX = rect.left + (rect.width / 2) - (startS / 2) + (startS * 0.03);
         startY = rect.top - (startS * 0.44);
     }
 
     function setLogo(x, y, s, rotY) {
-        wrap.style.left = `${x}px`;
-        wrap.style.top = `${y}px`;
-        wrap.style.width = `${s}px`;
+        if (!wrap || !inner) return;
+        wrap.style.left = `${x}px`; 
+        wrap.style.top = `${y}px`; 
+        wrap.style.width = `${s}px`; 
         wrap.style.height = `${s}px`;
         inner.style.transform = `rotateY(${rotY}deg)`;
     }
 
-        function tick() {
+    function tick() {
         const sy = window.scrollY;
         const T = TRANS();
         
-        // FIX: Clamp the 'raw' value between 0 and 1. 
-        // This prevents negative scroll values from breaking the math.
+        // The clamp fixes iOS Safari upward rubber-banding 
         const raw = Math.max(0, Math.min(sy / T, 1)); 
         
         const navStartX = (window.innerWidth - Math.min(window.innerWidth * 0.9, 900)) / 2;
-
-        // Adaptive gap for mobile to prevent overlap
         const targetX = navStartX + (window.innerWidth <= 768 ? 20 : 44);
 
         setLogo(lerp(startX, targetX, raw), lerp(startY, 27, raw), lerp(startS, NAV_S, raw), raw * 720);
         
-        if(heroTxt) heroTxt.style.opacity = Math.max(0, 1 - raw * 2.5);
+        if (heroTxt) heroTxt.style.opacity = Math.max(0, 1 - raw * 2.5);
 
         const scrollable = document.body.scrollHeight - window.innerHeight;
         if (prog) {
-            // Also protect progress bar from negative scrolling math
             prog.style.width = (Math.max(0, sy / scrollable) * 100) + '%';
             prog.style.opacity = sy > 0 && sy < scrollable ? 1 : 0;
         }
     }
 
-
-    // 6. Intersection Observer for Scroll Reveal
+    // 6. Intersection Observer
     const obs = new IntersectionObserver(entries => {
         entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('on'); });
     }, {threshold: .08});
     document.querySelectorAll('.rv, .tl-item').forEach(el => obs.observe(el));
 
-    // 7. Initialization & Event Listeners
+    // 7. Initialization & Listeners
     function initLogo() {
         calcInitSize();
         setLogo(startX, startY, startS, 0);
 
-        // Make visible only after positioning to avoid FOUC
         requestAnimationFrame(() => {
-            wrap.style.opacity = "1";
-            wrap.style.visibility = "visible";
-            tick();
+            if (wrap) {
+                wrap.style.opacity = "1";
+                wrap.style.visibility = "visible";
+            }
+            tick(); 
         });
     }
 
-    document.addEventListener('DOMContentLoaded', initLogo);
+    // Wait for fonts to load so hSpot returns true dimensions (Fixes Chrome squishing)
+    if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(initLogo);
+    } else {
+        document.addEventListener('DOMContentLoaded', initLogo);
+    }
 
     window.addEventListener('scroll', () => {
         if (!ticking) {
@@ -329,16 +336,19 @@
         }
     }, { passive: true });
 
-    // Debounced resize to prevent layout thrashing
     window.addEventListener('resize', () => {
         clearTimeout(resizeTimeout);
         resizeTimeout = setTimeout(() => {
-            calcInitSize();
-            tick();
+            // Only recalculate on pure width changes (Fixes Safari address bar collapse safely)
+            if (window.innerWidth !== lastWidth) {
+                lastWidth = window.innerWidth;
+                calcInitSize();
+                tick();
+            }
         }, 100);
     });
-
 </script>
+
 
 </body>
 </html>

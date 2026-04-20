@@ -238,7 +238,7 @@
     if (themeBtn) {
         themeBtn.addEventListener('click', () => {
             isDark = !isDark;
-            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            localStorage.setItem('theme', isDark ? '☾ dark' : '☀ light');
             updateThemeUI();
         });
     }
@@ -288,7 +288,7 @@
         const navStartX = (window.innerWidth - Math.min(window.innerWidth * 0.9, 900)) / 2;
         const targetX = navStartX + (window.innerWidth <= 768 ? 20 : 44);
 
-        setLogo(lerp(startX, targetX, raw), lerp(startY, 27, raw), lerp(startS, NAV_S, raw), raw * 720);
+        setLogo(lerp(startX, targetX, raw), lerp(startY, 30, raw), lerp(startS, NAV_S, raw), raw * 720);
         
         if (heroTxt) heroTxt.style.opacity = Math.max(0, 1 - raw * 2.5);
 

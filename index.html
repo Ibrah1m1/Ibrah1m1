@@ -272,25 +272,31 @@
         inner.style.transform = `rotateY(${rotY}deg)`;
     }
 
-    function tick() {
+        function tick() {
         const sy = window.scrollY;
         const T = TRANS();
-        const raw = Math.min(sy / T, 1);
+        
+        // FIX: Clamp the 'raw' value between 0 and 1. 
+        // This prevents negative scroll values from breaking the math.
+        const raw = Math.max(0, Math.min(sy / T, 1)); 
+        
         const navStartX = (window.innerWidth - Math.min(window.innerWidth * 0.9, 900)) / 2;
 
         // Adaptive gap for mobile to prevent overlap
         const targetX = navStartX + (window.innerWidth <= 768 ? 20 : 44);
 
         setLogo(lerp(startX, targetX, raw), lerp(startY, 27, raw), lerp(startS, NAV_S, raw), raw * 720);
-
+        
         if(heroTxt) heroTxt.style.opacity = Math.max(0, 1 - raw * 2.5);
 
         const scrollable = document.body.scrollHeight - window.innerHeight;
         if (prog) {
-            prog.style.width = ((sy / scrollable) * 100) + '%';
+            // Also protect progress bar from negative scrolling math
+            prog.style.width = (Math.max(0, sy / scrollable) * 100) + '%';
             prog.style.opacity = sy > 0 && sy < scrollable ? 1 : 0;
         }
     }
+
 
     // 6. Intersection Observer for Scroll Reveal
     const obs = new IntersectionObserver(entries => {
